@@ -83,12 +83,16 @@ function SignUp() {
         />
 
         <div className="flex flex-col items-center gap-[42px]">
+<<<<<<< HEAD
           <Button
             label="Cadastrar"
             color="BACKGROUND_600"
             type="submit"
             onClick={handleSignUp}
           />
+=======
+          <Button label="Cadastrar" color="BACKGROUND_600" type="submit" onClick={handleSignUp} />
+>>>>>>> 90a6684b9689d1ec8665cb96cc6302a6f41bce29
           <Link to="/" className="flex flex-row items-center gap-2 text-PINK">
             <FiArrowLeft className="text-xl" />
             Voltar para o login
