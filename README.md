@@ -50,7 +50,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🚀 TODO:
 
-- [ ] Deploy do projeto.
+- [x] Deploy do projeto.
+      https://rocketmovies-gustavohdab.netlify.app/
+
+## Preview
+
+https://user-images.githubusercontent.com/112674398/215760718-b66041de-6aa5-4a99-8be5-81e4ebd57495.mp4
 
 ---
 

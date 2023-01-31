@@ -34,6 +34,7 @@ function Movie({ data, ...rest }: MovieProps) {
           WebkitBoxOrient: "vertical",
           overflow: "hidden",
           display: "-webkit-box",
+          wordBreak: "break-word",
         }}
       >
         {data.description}

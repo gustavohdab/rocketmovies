@@ -88,7 +88,12 @@ function MoviePreview() {
           <Tag key={tag.id} title={tag.name} />
         ))}
 
-        <p className="text-justify pt-10 text-WHITE_100">{note.description}</p>
+        <p
+          className="text-justify pt-10 text-WHITE_100"
+          style={{ wordWrap: "break-word" }}
+        >
+          {note.description}
+        </p>
 
         <div className="flex items-center gap-4 mt-10">
           <ButtonText title="Excluir" onClick={handleDelete} />
